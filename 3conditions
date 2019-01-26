@@ -8,3 +8,19 @@ elif [ "$1" = "bye" ]
 else
 	echo 'The first argument was neither "hi" nor "hello" or "bye"'
 fi
+
+case $1 in
+	hi|hello)
+		echo 'Fine, hi or hello'
+		;;
+	bye)
+		echo 'Fine, bye'
+		;;
+	*)
+		echo 'Default case was reached'
+		;;
+esac
+
+for str in one two three four; do
+	echo $str
+done
