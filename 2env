@@ -1,0 +1,18 @@
+#!/bin/sh
+
+echo "$0: start this script in this way: $0 1 2 3"
+
+echo "$0: Args were passed to the script $#"
+echo "$0: Arg list $@"
+
+echo "$0: arg one $1"
+echo "$0: arg two $2"
+echo "$0: arg three $3"
+
+echo "$0: arg one $1"
+shift
+echo "$0: arg two $1"
+shift
+echo "$0: arg three $1"
+
+echo "$0: shell process id $$"

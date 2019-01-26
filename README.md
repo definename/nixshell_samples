@@ -1,2 +1,3 @@
-# unix_shell_samples
-unix shell
+# Bourne shell
+
+- man test - to check shell operators

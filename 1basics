@@ -1,0 +1,13 @@
+#!/bin/sh
+# Print something, then run ls
+
+echo About to run the ls command
+ls
+
+echo '$100'
+
+echo "env PATH with double quotes $PATH"
+echo 'env PATH with single quotes $PATH'
+
+echo Don\'t do it
+echo "Don't do it"

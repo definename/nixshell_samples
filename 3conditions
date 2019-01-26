@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ "$1" = "hi" ] || [ "$1" = "hello" ]; then
+	echo 'The first argument was "hi"'
+elif [ "$1" = "bye" ]
+	then
+	echo 'The first argument was "bye"'
+else
+	echo 'The first argument was neither "hi" nor "hello" or "bye"'
+fi
