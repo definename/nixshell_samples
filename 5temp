@@ -1,0 +1,13 @@
+#!/bin/sh
+
+TMPFILE1=$(mktemp ./tmp1.XXXXXX)
+TMPFILE2=$(mktemp ./tmp2.XXXXXX)
+
+trap "rm -f $TMPFILE1 $TMPFILE2; exit 1" INT
+
+cat /proc/interrupts > $TMPFILE1
+sleep 2
+cat /proc/interrupts > $TMPFILE2
+diff $TMPFILE1 $TMPFILE2
+
+rm -f $TMPFILE1 $TMPFILE2
