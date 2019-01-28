@@ -1,5 +1,8 @@
 #!/bin/sh
 
+######################################################################
+# if/else/elif #######################################################
+
 if [ "$1" = "hi" ] || [ "$1" = "hello" ]; then
 	echo 'The first argument was "hi"'
 elif [ "$1" = "bye" ]
@@ -8,6 +11,9 @@ elif [ "$1" = "bye" ]
 else
 	echo 'The first argument was neither "hi" nor "hello" or "bye"'
 fi
+
+######################################################################
+# case ###############################################################
 
 case $1 in
 	hi|hello)
@@ -21,6 +27,24 @@ case $1 in
 		;;
 esac
 
+######################################################################
+# for ################################################################
+
 for str in one two three four; do
 	echo $str
 done
+
+######################################################################
+# while ##############################################################
+
+FILE=./whiletest;
+echo firstline > $FILE
+
+while tail -10 $FILE | grep -q firstline; do
+	echo -n "Number of lines in $FILE: "
+	wc -l $FILE | awk '{print $1}'
+
+	echo "newline" >> $FILE
+done
+
+rm -f $FILE
