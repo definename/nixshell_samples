@@ -8,10 +8,10 @@ for f in $FLAGS; do
 			MSG="floating point unit"
 			;;
 		3dnow)
-			MSG="3dnow graphics extentions"
+			MSG="3Dnow graphics extentions"
 			;;
 		mtrr)
-			MSG="memory type tange register"
+			MSG="memory type range register"
 			;;
 		*)
 			MSG="unknown"
