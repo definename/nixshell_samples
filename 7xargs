@@ -1,3 +1,5 @@
 #!/bin/sh
 
 find . -name '*basics' -print | xargs file
+
+DATA=CUSTOMDATA

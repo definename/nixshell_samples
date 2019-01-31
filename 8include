@@ -1,0 +1,5 @@
+#!/bin/sh
+
+. ./7xargs
+
+echo "Here is variable from another file =>> $DATA"
