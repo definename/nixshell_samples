@@ -1,4 +1,4 @@
 #!/bin/sh
 
 read VAR
-echo $VAR
+echo "da da: $VAR"
