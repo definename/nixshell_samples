@@ -2,4 +2,4 @@
 
 . ./7xargs
 
-echo "Here is variable from another file =>> $DATA"
+echo "Here is variable from another file: $DATA"

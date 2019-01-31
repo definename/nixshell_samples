@@ -1,0 +1,4 @@
+#!/bin/sh
+
+read VAR
+echo $VAR
