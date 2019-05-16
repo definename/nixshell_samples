@@ -6,3 +6,15 @@
 
 - symbolic link points to the file,
 - hard link points to the data
+
+# `mount` command
+
+## Get device or lable to mount:
+`sudo blkid`
+
+## Mount device with mask `drwxr-xr-x`
+`sudo mount /dev/sdb2 /media/$USER/mycop -o umask=022`
+
+## Mount device via device lable
+`sudo mount -L mycop /media/$USER/mycop -o umask=022`
+
