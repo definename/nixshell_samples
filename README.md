@@ -20,3 +20,6 @@
 ## Mount device via device lable
 `sudo mount -L mycop /media/$USER/mycop -o umask=022`
 
+## Filesystem report
+`df -h`
+
