@@ -9,7 +9,7 @@
 
 # :penguin: `mount` command
 
-## Get device or lable to mount:
+## Partition UUID:
 `sudo blkid`
 
 ## Mount device with mask `drwxr-xr-x`
