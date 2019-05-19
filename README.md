@@ -7,7 +7,7 @@
 - symbolic link points to the file,
 - hard link points to the data
 
-:penguin: # `mount` command
+# :penguin: `mount` command
 
 :penguin: Get device or lable to mount:
 `sudo blkid`
