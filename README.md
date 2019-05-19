@@ -9,12 +9,12 @@
 
 # :penguin: `mount` command
 
-:penguin: Get device or lable to mount:
+## Get device or lable to mount:
 `sudo blkid`
 
-:penguin: Mount device with mask `drwxr-xr-x`
+## Mount device with mask `drwxr-xr-x`
 `sudo mount /dev/sdb2 /media/$USER/mycop -o umask=022`
 
-:penguin: Mount device via device lable
+## Mount device via device lable
 `sudo mount -L mycop /media/$USER/mycop -o umask=022`
 
