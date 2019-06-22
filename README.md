@@ -31,3 +31,6 @@
 
 - Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
 - Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) Commands In Linux
+
+- `sudo apt-get update` - checks whether newer packages available or not.
+- `sudo apt-get upgrade` - upgrades installed packages.
