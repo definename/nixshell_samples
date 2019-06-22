@@ -32,6 +32,6 @@
 - Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
 - Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) Commands In Linux
 
-`sudo apt-get update` only updates the database of the packages (e.g, if you have XYX package version 1.3 installed, after apt-get update, the database will be aware that a newer version 1.4 is available)
+`sudo apt-get update` only updates the database of the packages (e.g, if you have XYX package version 1.3 installed, after apt-get update, the database will be aware that a newer version 1.4 is available).
 
 When you do an `sudo apt-get upgrade` after `apt-get update`, it upgrades (or updates, whichever term you prefer) the installed packages to the newer version.
