@@ -9,12 +9,12 @@
 
 # Table of contents
 
-- [Mount partition](#:penguin:-mount-partition)
-- [Unix package management](#:penguin:-unix-package-management)
+- [Mount partition](#mount-partition)
+- [Unix package management](#unix-package-management)
 
 ---
 
-# :penguin: Mount partition
+# Mount partition
 
 > [HowTo](https://help.ubuntu.ru/wiki/%D0%BC%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2) mount partitions on Ubuntu
 
@@ -36,7 +36,7 @@
 
 ---
 
-# :penguin: Unix package management
+# Unix package management
 
 - Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) Commands In Linux
 - Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
