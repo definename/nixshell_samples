@@ -7,7 +7,7 @@
 - symbolic link points to the file,
 - hard link points to the data
 
-#mount command [#mount_command]
+Mount command(#mount-command)
 
 # :penguin: `mount` command
 
