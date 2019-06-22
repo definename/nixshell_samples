@@ -27,3 +27,6 @@
 
 `UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
 
+# :penguin: Unix package management
+
+Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
