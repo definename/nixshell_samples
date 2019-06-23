@@ -10,7 +10,7 @@
 # Table of contents
 
 - [mount command](#mount-command)
-- [dpkg command](dpkg-command)
+- [dpkg command](#dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
 
 ---
