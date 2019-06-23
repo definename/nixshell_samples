@@ -9,8 +9,8 @@
 
 # Table of contents
 
-- [Mount partition](#mount-command)
-- [Unix package management](#unix-package-management)
+- [mount command](#mount-command)
+- [apt and apt-get command](#apt-and-apt-get-command)
 
 ---
 
