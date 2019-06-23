@@ -19,15 +19,21 @@
 
 > [HowTo](https://help.ubuntu.ru/wiki/%D0%BC%D0%BE%D0%BD%D1%82%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5_%D1%80%D0%B0%D0%B7%D0%B4%D0%B5%D0%BB%D0%BE%D0%B2) mount partitions on Ubuntu
 
-- Partition UUID:
+Partition UUID:
+
 `sudo blkid`
 
 Mount device with mask `drwxrwxr-x`:
+
 `sudo mount /dev/sdb2 /media/$USER/mycop -o umask=002`
 
-Mount device using device lable: `sudo mount -L mycop /media/$USER/mycop -o umask=002`
+Mount device using device lable:
 
-Filesystem report `df -h`
+`sudo mount -L mycop /media/$USER/mycop -o umask=002`
+
+Filesystem report:
+
+`df -h`
 
 `/etc/fstab` record for ntfs partition :
 
