@@ -23,15 +23,11 @@ Partition UUID: `sudo blkid`
 
 Mount device with mask `drwxrwxr-x`: `sudo mount /dev/sdb2 /media/$USER/mycop -o umask=002`
 
-## Mount device via device lable
-`sudo mount -L mycop /media/$USER/mycop -o umask=002`
+Mount device using device lable: `sudo mount -L mycop /media/$USER/mycop -o umask=002`
 
-## Filesystem report
-`df -h`
+Filesystem report `df -h`
 
-## `/etc/fstab` record for ntfs partition
-
-`UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
+`/etc/fstab` record for ntfs partition :`UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
 
 ---
 
