@@ -9,7 +9,7 @@
 
 # Table of contents
 
-- [Mount partition](#mount-partition)
+- [Mount partition](#mount-command)
 - [Unix package management](#unix-package-management)
 
 ---
