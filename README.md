@@ -40,6 +40,7 @@
 
 - Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) Commands In Linux
 - Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
+> Bottom line: apt=most common used command options from apt-get and apt-cache
 
 `sudo apt-get update` only updates the database of the packages (e.g, if you have XYX package version 1.3 installed, after apt-get update, the database will be aware that a newer version 1.4 is available).
 
