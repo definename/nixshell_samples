@@ -10,6 +10,7 @@
 # Table of contents
 
 - [mount command](#mount-command)
+- [dpkg command](dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
 
 ---
@@ -33,6 +34,12 @@
 ## `/etc/fstab` record for ntfs partition
 
 `UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
+
+---
+
+# `dpkg` command
+
+[dpkg](https://wiki.debian.org/DebianPackageManagement) packaging system
 
 ---
 
