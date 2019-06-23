@@ -38,7 +38,8 @@
 
 # Unix package management
 
-- Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) Commands In Linux
+- Using [apt-get](https://itsfoss.com/apt-get-linux-guide/) command In Linux
+- Using [apt](https://itsfoss.com/apt-command-guide/) command In Linux
 - Difference Between [apt and apt-get](https://itsfoss.com/apt-vs-apt-get-difference/)
 > Bottom line: apt=most common used command options from apt-get and apt-cache
 
