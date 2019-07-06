@@ -13,6 +13,8 @@
 
 # `ln` command
 
+> [HowTo](https://www.ibm.com/developerworks/ru/library/l-lpic1-v3-104-6/index.html) work with ln command
+
 Поиск всех символических ссылок на файл или директорию: `find . -lname ./filename`
 
 Для вывода номеров индексных дескрипторов inode файлов и директорий: `ll -i` 
