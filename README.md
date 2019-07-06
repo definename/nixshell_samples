@@ -7,7 +7,7 @@
 - [mount command](#mount-command)
 - [dpkg command](#dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
-- [ln](#ln)
+- [ln](#ln-command)
   - [symlink](#symlink)
   - [hardlink](#hardlink)
 
