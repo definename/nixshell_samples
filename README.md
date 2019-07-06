@@ -13,6 +13,8 @@
 
 # `ln` command
 
+Поиск всех символических ссылок на файл или директорию: `find . -lname ./filename`
+
 Для вывода номеров индексных дескрипторов inode файлов и директорий: `ll -i` 
 
 :penguin: `symlink` points to the objectname (filename)
