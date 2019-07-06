@@ -13,14 +13,14 @@
 
 # `ln` command
 
-:penguin: `symlink`
-symlink points to the objectname (filename)
+Для вывода номеров индексных дескрипторов inode файлов и директорий: `ll -i` 
+
+:penguin: `symlink` points to the objectname (filename)
 
 In order to find all symlink in current dirrectory: `find . -type l`
 
-:penguin: `hardlink` points to the data
-
-> Жесткие ссылки можно создавать только для файлов, но не для директорий. 
+:penguin: `hardlink` points to the data, inode descriptor of the file/folder
+Жесткие ссылки можно создавать только для файлов, но не для директорий. 
 
 ---
 
