@@ -7,18 +7,18 @@
 - [mount command](#mount-command)
 - [dpkg command](#dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
-- [link](#link)
+- [ln command](#ln-command)
   - [symlink](#symlink)
   - [hardlink](#hardlink)
 
 ---
 
-# `link`
+# `ln` command
 
-## `symlink`
+:penguin: `symlink`
 symlink points to the file(name)
 
-## `hardlink`
+:penguin: `hardlink`
 - hard link points to the data
 
 > Жесткие ссылки можно создавать только для файлов, но не для директорий. 
