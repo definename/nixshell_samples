@@ -2,16 +2,26 @@
 
 - man test - to check shell operators
 
-`symbolic` and `hard` links
-
-- symbolic link points to the file,
-- hard link points to the data
-
 # Table of contents
 
 - [mount command](#mount-command)
 - [dpkg command](#dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
+- [link](#link)
+  - [symlink](#symlink)
+  - [hardlink](#hardlink)
+
+---
+
+# `link`
+
+## `symbolic`
+symlink points to the file(name)
+
+## `hard`
+- hard link points to the data
+
+> Жесткие ссылки можно создавать только для файлов, но не для директорий. 
 
 ---
 
