@@ -15,10 +15,10 @@
 
 # `link`
 
-## `symbolic`
+## `symlink`
 symlink points to the file(name)
 
-## `hard`
+## `hardlink`
 - hard link points to the data
 
 > Жесткие ссылки можно создавать только для файлов, но не для директорий. 
