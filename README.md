@@ -14,7 +14,7 @@
 # `ln` command
 
 :penguin: `symlink`
-symlink points to the file(name)
+symlink points to the objectname (filename)
 
 :penguin: `hardlink` points to the data
 
