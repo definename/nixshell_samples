@@ -4,10 +4,10 @@
 
 # Table of contents
 
-Info
+## Info
   - [Hardware](#hardware-info)
   - [Software](#software-info)
-Command
+## Command
   - [mount](#mount-command)
   - [dpkg](#dpkg-command)
   - [apt and apt-get command](#apt-and-apt-get-command)
