@@ -8,6 +8,15 @@
 - [dpkg](#dpkg-command)
 - [apt and apt-get command](#apt-and-apt-get-command)
 - [ln](#ln-command)
+- [lscpu](#lscpu-command)
+
+--- Hardware/software info:
+
+CPU `32/64-bit` installed:
+`lscpu | grep Architecture`
+
+Linux `32/64-bit` installed:
+`getconf LONG_BIT` or `uname -i`
 
 ---
 
