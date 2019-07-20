@@ -14,18 +14,19 @@
   - [ln](#ln-command)
   - [lscpu](#lscpu-command)
 
+---
+
 # Info
 
 ## Hardware info:
 
 CPU `32/64-bit` installed: `lscpu | grep Architecture`
 
----
-
 ## Software info:
 
 Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 
+---
 
 # Command
 
@@ -44,8 +45,6 @@ In order to find all symlink in current dirrectory: `find . -type l`
 :penguin: `hardlink` points to the data, inode descriptor of the file/folder
 
 Жесткие ссылки можно создавать только для файлов, но не для директорий. 
-
----
 
 ## `mount` command
 
@@ -71,13 +70,9 @@ In order to find all symlink in current dirrectory: `find . -type l`
 
 `UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
 
----
-
 ## `dpkg` command
 
 [dpkg](https://wiki.debian.org/DebianPackageManagement) packaging system
-
----
 
 ## `apt` and `apt-get` command
 
