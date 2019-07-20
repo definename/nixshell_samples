@@ -16,15 +16,13 @@
 
 # Hardware info:
 
-CPU `32/64-bit` installed:
-`lscpu | grep Architecture`
+CPU `32/64-bit` installed: `lscpu | grep Architecture`
 
 ---
 
 # Software info:
 
-Linux kernel `32/64-bit`:
-`getconf LONG_BIT` or `uname -i`
+Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 
 ---
 
