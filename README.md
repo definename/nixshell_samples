@@ -12,7 +12,6 @@
   - [dpkg](#dpkg-command)
   - [apt and apt-get command](#apt-and-apt-get-command)
   - [ln](#ln-command)
-  - [lscpu](#lscpu-command)
 
 ---
 
