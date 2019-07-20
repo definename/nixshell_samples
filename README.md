@@ -5,14 +5,14 @@
 # Table of contents
 
 Info
-- [Hardware](#hardware-info)
-- [Software](#software-info)
+  - [Hardware](#hardware-info)
+  - [Software](#software-info)
 Command
-- [mount](#mount-command)
-- [dpkg](#dpkg-command)
-- [apt and apt-get command](#apt-and-apt-get-command)
-- [ln](#ln-command)
-- [lscpu](#lscpu-command)
+  - [mount](#mount-command)
+  - [dpkg](#dpkg-command)
+  - [apt and apt-get command](#apt-and-apt-get-command)
+  - [ln](#ln-command)
+  - [lscpu](#lscpu-command)
 
 # Info
 
