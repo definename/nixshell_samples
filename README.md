@@ -23,7 +23,7 @@ CPU `32/64-bit` installed:
 
 # Software info:
 
-Linux `32/64-bit` installed:
+Linux kernel `32/64-bit`:
 `getconf LONG_BIT` or `uname -i`
 
 ---
