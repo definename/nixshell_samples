@@ -1,4 +1,6 @@
-# Bourne shell
+# Bourne-Again Shell(bash)
+# Korn Shell (ksh)
+#  C Shell
 
 - man test - to check shell operators
 
