@@ -1,6 +1,7 @@
 # Bourne-Again Shell(bash)
-- Korn Shell (ksh)
-- C Shell
+## Alternative shell:
+  - Korn Shell (ksh)
+  - C Shell
 
 - man test - to check shell operators
 
