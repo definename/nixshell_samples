@@ -1,4 +1,5 @@
-- man test - to check shell operators
+- `man test` - to check shell operators
+- `man magic` - to check file type
 
 # Bourne-Again Shell(bash)
 Alternative shell:
