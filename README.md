@@ -1,4 +1,4 @@
-- Bourne-Again Shell(bash)
+# Bourne-Again Shell(bash)
 - Korn Shell (ksh)
 - C Shell
 
