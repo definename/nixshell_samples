@@ -34,6 +34,12 @@ Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 
 # Command
 
+## `zip` command
+- qq
+
+## `unzip` command
+- qq
+
 ## `tar` command
 
 - Create a new archive: `tar -cvf ar.tar file file file`
