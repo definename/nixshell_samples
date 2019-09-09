@@ -40,7 +40,8 @@ Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 - qq
 
 ## `unzip` command
-- qq
+
+- List archive files `unzip -l ./file.zip `
 
 ## `tar` command
 
