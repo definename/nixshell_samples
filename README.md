@@ -12,6 +12,8 @@ Alternative shell:
   - [Hardware](#hardware-info)
   - [Software](#software-info)
 ## Command
+  - [zip](#zip-command)
+  - [unzip](#unzip-command)
   - [tar](#tar-command)
   - [ln](#ln-command)
   - [mount](#mount-command)
