@@ -37,14 +37,15 @@ Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 # Command
 
 ## `zip` command
-- qq
+
+- Recursively zip folder and create `*.zip` file with predefined name: `zip -r ./outfile.zip ./zipfolder`
 
 ## `unzip` command
 
-- List archive files `unzip -l ./file.zip `
-- List archive files(verbose version) `unzip -v ./file.zip`
+- List archive files: `unzip -l ./file.zip `
+- List archive files(verbose version): `unzip -v ./file.zip`
 - Unzip into filename folder: `unzip ./file.zip`
-- Unzip into predefined folder: `unzip ./file.zip -d ./output`
+- Unzip into predefined folder: `unzip ./file.zip -d ./outfolder`
 
 ## `tar` command
 
