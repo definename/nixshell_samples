@@ -12,10 +12,11 @@ Alternative shell:
   - [Hardware](#hardware-info)
   - [Software](#software-info)
 ## Command
+  - [tar](#tar-command)
+  - [ln](#ln-command)
   - [mount](#mount-command)
   - [dpkg](#dpkg-command)
   - [apt and apt-get command](#apt-and-apt-get-command)
-  - [ln](#ln-command)
 
 ---
 
@@ -32,6 +33,16 @@ Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 ---
 
 # Command
+
+## `tar` command
+
+- Create a new archive: `tar -cvf ar.tar file file file`
+- Extract files from an archive: `tar -xpvf ./coreutils-8.9.tar.xz`
+
+- Pack and compress: `tar -czvf rmcp_py.tar.gz ./rmcp_py`
+- Unpack and decompress: `tar -xzvf rmcp_py.tar.gz ./rmcp_py`
+
+- List the content of an archive: `tar -tvf ./coreutils-8.9.tar.xz`
 
 ## `ln` command
 
