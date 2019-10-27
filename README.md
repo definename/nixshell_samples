@@ -61,7 +61,12 @@ Linux kernel `32/64-bit`: `getconf LONG_BIT` or `uname -i`
 
 > [HowTo](https://www.ibm.com/developerworks/ru/library/l-lpic1-v3-104-6/index.html) work with ln command
 
-Usage example: `sudo ln --symbolic ./bash sh`
+Usage example:
+
+```
+sudo ln --symbolic ./bash sh
+ln -s /media/olehk/mycop/ ~/mycop
+```
 
 Поиск всех символических ссылок на файл или директорию: `find . -lname ./filename`
 
