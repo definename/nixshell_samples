@@ -97,7 +97,7 @@ In order to find all symlink in current dirrectory: `find . -type l`
 
 :penguin: `/etc/fstab` record for ntfs partition :
 
-`UUID="A818CCE429EDA9E7" /media/olegk/mycop ntfs rw,nls=utf8,uid=olegk,gid=plugdev,umask=002 0 0`
+`UUID="A818CCE429EDA9E7" /media/olehk/mycop ntfs rw,nls=utf8,uid=olehk,gid=plugdev,umask=002 0 0`
 
 ## `dpkg` command
 
